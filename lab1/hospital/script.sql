@@ -9,7 +9,7 @@ CREATE TABLE utente (
     morada TEXT NOT NULL,
     num_telefone VARCHAR(9) NOT NULL,
     email VARCHAR(50) NOT NULL,
-    sexo VARCHAR(6) NOT NULL,
+    sexo VARCHAR(20) NOT NULL,
     data_nascimento DATE NOT NULL,
     nif VARCHAR(20) NOT NULL,
     id_ficheiro_clinico INT, -- FK
